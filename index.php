@@ -8,6 +8,9 @@ switch($acao){
     case 'index':
         index();
         break;
+    case 'deletar':
+        deletar();
+        break;
     default:
         echo "Ação não encontrada!";
 }
